@@ -46,7 +46,7 @@ export default {
   },
   methods: {
     getData() {
-        Axios.get('http://localhost:3000/pinyin/get',{params: {number:this.result}}).then(res=>{
+        Axios.get('http://119.27.161.144:3000/pinyin/get',{params: {number:this.result}}).then(res=>{
             if(res.data.success){
                 this.list = res.data.data
             }

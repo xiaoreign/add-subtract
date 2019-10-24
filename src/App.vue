@@ -42,13 +42,18 @@
   text-align: center;
   color: #2c3e50;
 }
+#app  /deep/ .van-tabs__wrap{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
 .cell{
   background: #eee;
   border-bottom: 1px solid #fff;
 }
 .header{
   position: sticky;
-  top:0;
+  top:44px;
   padding-top:20px;
   z-index: 10;
   background: #fff;
