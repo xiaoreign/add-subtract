@@ -8,6 +8,9 @@
         <Pinyin />
       </van-tab>
     </van-tabs>
+    <div style="height:40px;line-height:40px">
+        <a style="text-align:center;font-size:12px;color:#333" href="http://beian.miit.gov.cn">沪ICP备18045274号-1</a>
+    </div>
   </div>
 
 </template>
